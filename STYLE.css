@@ -1,0 +1,174 @@
+body {
+    font-family: cursive;
+    background: linear-gradient(354deg, red, green, blue, yellow);
+
+}
+
+
+
+.landpage-section img {
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 100%);
+}
+
+
+.quote-section img {
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0 100%);
+
+
+}
+
+.container{
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    transform: rotate(55%);
+}
+
+.members-section {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+section {
+    margin-top: 100px;
+}
+
+footer {
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.footer-section img:hover {
+
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.carousel-item img {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 800px;
+}
+
+.menu-button img {
+    display: none;
+}
+
+.menu-button h1 {
+    display: none;
+}
+
+.menu-items {
+    display: none;
+}
+
+.col {
+    display: block;
+    margin: auto;
+}
+
+.col img {
+    width: 80%;
+    /* margin-bottom: 100px; */
+    /* height: 100; */
+}
+
+
+.card {
+    margin-bottom: 40px;
+    width: 25em;
+}
+
+.card-text {
+    font-size: 1rem;
+
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-body img {
+    width: 20%;
+}
+
+
+.col h5 {
+    font-size: 2rem;
+    color: white;
+}
+
+.head h1 {
+    font-size: 3rem;
+    /* background-color: #f7f7f7; */
+}
+
+.carousel-caption h5 {
+    font-size: 3.25rem;
+}
+
+.carousel-caption p {
+    font-size: 2rem;
+}
+
+#slider-section {
+    width: 93.5%;
+    margin: auto;
+    display: block;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+
+}
+
+
+@media (max-width: 795px) {
+
+    .row {
+        display: block;
+        margin: auto;
+    }
+
+    .col img {
+        margin-bottom: 50px;
+
+    }
+
+    .col h5 {
+        font-size: 0.7rem;
+    }
+
+    .head h1 {
+        
+        font-size: 1.3rem;
+        /* margin-bottom: 10px; */
+    }
+
+    .card {
+        width: 10rem;
+        /* height: 50px; */
+    }
+
+    .card-text {
+        font-size: 0.4rem;
+        width: 126PX;
+        height: 86PX;
+    }
+
+    .card-body {
+        padding-bottom: 0;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+}
